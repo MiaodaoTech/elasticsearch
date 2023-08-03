@@ -1,0 +1,38 @@
+{
+    "name": "md-tech/elasticsearch",
+    "description": "elasticsearch",
+    "keywords": [
+        "md-tech",
+        "laravel",
+        "elasticsearch"
+    ],
+    "homepage": "https://github.com/MdTech/laravel-elasticsearch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md-Tech",
+            "email": "h2odumpling@vip.qq.com",
+            "homepage": "https://miaodaokeji.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "elasticsearch/elasticsearch": "7.17.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MdTech\\Elasticsearch\\\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MdTech\\Elasticsearch\\ElasticsearchServiceProvider"
+            ]
+        }
+    }
+}
