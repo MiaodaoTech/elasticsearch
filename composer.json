@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MdTech\\Elasticsearch\\": "src"
+            "MdTech\\Elasticsearch\\": "src/"
         }
     },
     "config": {
