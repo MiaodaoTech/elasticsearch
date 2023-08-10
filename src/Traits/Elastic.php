@@ -118,7 +118,7 @@ trait Elastic
             'query' => ['bool' => $this->queryParams],
             'sort' => $this->orderParams ?: ($this->defaultOrder ?: []),
             'size' => $this->size ?: ($this->defaultSize ?: 1000),
-            'from' => $this->from ?: 1
+            'from' => $this->from ?: 0
         ];
     }
 
